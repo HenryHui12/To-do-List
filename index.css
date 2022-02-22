@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(7,64,60);
+    background: linear-gradient(90deg, rgba(7,64,60,0.39289219105610995) 21%, rgba(15,131,171,0.5217437316723564) 45%, rgba(3,138,238,0.4629202022605917) 87%, rgba(0,212,255,1) 100%);
+}
+
+h1,form,div{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input{
+    background-color: lemonchiffon;
+    border-color: dodgerblue;
+    font-size: 25px;
+}
+
+button{
+    background-color: #32c725;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 100px;
+    border-radius: 35px;
+    font-size: 25px;
+    border-color: black;
+    border-width: 3px;
+}
+
+ul{
+    display: block;
+    width: 35%;
+}
+
+.item {
+    overflow-wrap: break-word;
+    list-style-type: none;
+    background-color: rgb(203, 228, 64);
+    margin-bottom: 10px; 
+    font-size: 2.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 5px solid dodgerblue;
+    border-radius: 20px;
+}
+
+.item button{
+    width: 10%;
+    background-color: red;
+    float: right;
+    margin: 5px;
+    text-align: center;
+}
+
+.delete{
+    display: inline-block;
+}
+/* ul button{
+    text-align: center;
+    justify-content: right;
+    align-items: right;
+    font-size: 20px;
+    width: 2vw;
+} */
+/* #table{
+    border: 3px solid black;
+    margin: 80px 400px;
+    padding: 25px;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+
+    
+}
+
+input{
+    display:inline-block;
+    background-color: lightblue;
+    border-color: dodgerblue;
+}
+
+button{
+    background-color: #0a2ea4;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+
+ul{
+    text-align: center;
+    list-style-position: inside;
+}
+li{
+    background: darkcyan;
+    text-align: left;
+    margin-left: 45%;
+    font-size: 24px;
+} */
